@@ -1,0 +1,45 @@
+{
+  "wake": {
+    "phrases": ["ニセモノ", "偽物", "偽者"],
+    "model_path": "trash/models/vosk-model-small-ja-0.22"
+  },
+  "audio": {
+    "input_device": null,
+    "output_device": null,
+    "silence_seconds": 0.9,
+    "max_recording_seconds": 25,
+    "followup_seconds": 12,
+    "voice_cues": true,
+    "echo_cooldown_seconds": 0.5
+  },
+  "transcription": {
+    "backend": "faster_whisper",
+    "model": "small",
+    "model_path": "",
+    "cpu_threads": 4,
+    "command": [],
+    "timeout_seconds": 60
+  },
+  "codex": {
+    "model": "gpt-6-luna",
+    "effort": "low",
+    "timeout_seconds": 90,
+    "web_search": "live",
+    "style": "自然で親しみやすい日本語。まず結論を述べ、通常は3文以内で簡潔に答える。必要なら詳しく説明する。"
+  },
+  "voicevox": {
+    "url": "http://127.0.0.1:50121",
+    "engine_path": "",
+    "auto_start": true,
+    "idle_timeout_seconds": 1800,
+    "speaker": 3,
+    "speedScale": 1.1,
+    "pitchScale": 0.0,
+    "intonationScale": 1.0,
+    "volumeScale": 1.0,
+    "prePhonemeLength": 0.08,
+    "postPhonemeLength": 0.08,
+    "outputSamplingRate": 24000,
+    "outputStereo": false
+  }
+}

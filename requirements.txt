@@ -1,0 +1,12 @@
+openai-codex==0.167.0
+faster-whisper==1.2.1
+av>=11,<17
+vosk==0.3.45
+sounddevice>=0.5.3,<0.6
+soundfile>=0.13,<0.14
+webrtcvad-wheels>=2.0.14,<3
+pystray>=0.19.5,<0.20
+Pillow>=11,<13
+numpy>=1.26,<3
+pydantic>=2.12,<3
+huggingface-hub>=0.24,<3
